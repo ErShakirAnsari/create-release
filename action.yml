@@ -1,4 +1,4 @@
-name: 'Create a Release'
+name: 'Create Release Action'
 description: 'Create a release for a tag in your repository'
 author: 'GitHub'
 inputs:
@@ -42,5 +42,5 @@ runs:
   using: 'node20'
   main: 'dist/index.js'
 branding:
-  icon: 'tag'
-  color: 'gray-dark'
+  icon: 'package'
+  color: 'blue'
